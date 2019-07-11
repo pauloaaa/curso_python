@@ -1,4 +1,4 @@
-p_numero = int(input('Primeiro número '))
-s_numero = int(input('SSegundo número '))
-soma = p_numero + s_numero
-print('A soma é',soma)
+pNumero = int(input('Primeiro número '))
+sNumero = int(input('SSegundo número '))
+soma = pNumero + sNumero
+print('A soma entre {} e {} vale {}'.format(pNumero, sNumero, soma))
